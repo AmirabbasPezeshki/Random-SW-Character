@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+    font-family: sans-serif;
+}
+.image{
+    display: flex;
+    background-image: url('./Star_Wars_Logo.svg.png');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 150px;
+}
+.page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.random-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fbff00;
+}
+button{
+    border: solid #fbff00 2px;
+    padding: 1rem;
+    color: #fbff00;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fbff00;
+    color: #000;
+}

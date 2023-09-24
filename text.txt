@@ -1,0 +1,6 @@
+
+Star Wars Api People =>
+
+https://swapi.dev/api/people/
+
+
